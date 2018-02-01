@@ -1,0 +1,32 @@
+---
+title: "test"
+author: "Vanessa Tobias"
+date: "February 1, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data(cars)
+```
+
+## This is a test page
+
+I'm checking ot see how this works on github.io. 
+We'll keep the default example to see how it goes.
+
+### Simple summary stats
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
