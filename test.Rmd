@@ -26,7 +26,9 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
+par(mfrow = c(1, 2))
 plot(pressure)
+plot(pressure, pch = 16, col = "red")
 ```
 
 
